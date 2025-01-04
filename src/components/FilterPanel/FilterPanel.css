@@ -1,0 +1,35 @@
+.filter-panel {
+    padding: 4px 8px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 4px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.number-filter {
+    display: flex;
+    gap: 8px;
+}
+
+.number-filter .filter-input {
+    width: 50%;
+}
+
+.date-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.filter-select {
+    width: 100%;
+    padding: 4px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 12px;
+}

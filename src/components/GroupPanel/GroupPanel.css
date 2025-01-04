@@ -1,0 +1,41 @@
+.group-panel {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.group-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.group-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.group-tag {
+    display: flex;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.remove-group {
+    background: none;
+    border: none;
+    padding: 0 0 0 4px;
+    cursor: pointer;
+    color: #666;
+}
+
+.remove-group:hover {
+    color: #dc3545;
+}

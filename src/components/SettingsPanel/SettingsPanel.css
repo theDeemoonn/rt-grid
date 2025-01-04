@@ -1,0 +1,100 @@
+.settings-panel {
+    position: relative;
+    display: inline-block;
+}
+
+.settings-button {
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.settings-button:hover {
+    background: #f5f5f5;
+}
+
+.settings-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 4px;
+    width: 300px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.settings-header {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.settings-content {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.settings-section {
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.settings-section h4 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.column-visibility-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+.column-visibility-option input {
+    margin: 0;
+}
+
+.settings-footer {
+    padding: 12px 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reset-button {
+    padding: 8px 16px;
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background: #e0e0e0;
+}

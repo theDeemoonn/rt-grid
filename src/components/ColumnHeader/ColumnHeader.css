@@ -1,0 +1,26 @@
+.column-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-content:hover {
+    background-color: #f5f5f5;
+}
+
+.header-text {
+    font-weight: 500;
+}
+
+.sort-indicator {
+    margin-left: 4px;
+}
